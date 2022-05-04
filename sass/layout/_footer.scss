@@ -1,1 +1,43 @@
-/* _-_-_- layout/FOOTER -_-_-_ */
+.footer {
+  .container {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+  }
+
+  // .footer__copy
+
+  &__copy {
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  // .footer__year
+
+  &__year {
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 20px;
+  }
+  &__github {
+    display: block;
+    text-align: center;
+    height: 100%;
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 20px;
+    text-decoration: none;
+  }
+
+  // .footer__rss
+
+  &__rss {
+    margin-left: auto;
+    background-image: url("/assets/rs_school.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 121px;
+    height: 45px;
+    cursor: pointer;
+  }
+}
