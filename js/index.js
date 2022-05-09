@@ -23,26 +23,16 @@ function getTranslate(lang){
         if (lang =='en') keys = keysEng
         else keys = keysRu
         button.forEach((elem,index) => {
-            console.log(elem.getAttribute('class'));
             elem.className = keys[index]['class']
             if (elem.className=='symbol'){
                 elem.innerHTML = `<span class="off">${keys[index]['inner']}</span><span class="on">${keys[index]['add']}</span>`
             } else {
                 elem.innerHTML = (`${keys[index]['inner']}`.length == 1)? `${keys[index]['inner']}`.toUpperCase():`${keys[index]['inner']}`
+
             }
-
-
-
-
-
         });
     }
-    else {
-        console.log('не существует');
 
-    }
-    // const keyboard = document.querySelector(".keyboard")
-    // const button = keyboard.querySelectorAll("li")
 }
 
 //!local storage

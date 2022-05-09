@@ -13,7 +13,6 @@ function createKey(language) {
         keyboard.insertAdjacentHTML('beforeend',`<li class='${classKey}'> ${innerKey}</li>`)
       }
   }
-
 }
 
 export { createKey };
