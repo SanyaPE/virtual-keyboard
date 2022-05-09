@@ -424,16 +424,11 @@ body {
   position: absolute;
   left: 5px; }
 
-.capslock,
-.tab,
-.left-shift {
-  clear: left; }
-
 #keyboard .tab,
 #keyboard .backspace,
 #keyboard .enter,
-#keyboard .left-shift,
-#keyboard .right-shift,
+#keyboard .leftShift,
+#keyboard .rightShift,
 #keyboard .capslock {
   width: 85px; }
 
